@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-public class Truck implements InitializingBean, DisposableBean {
+public class Truck implements Transport,InitializingBean, DisposableBean {
 
     private Product product1;
     private Product product2;
